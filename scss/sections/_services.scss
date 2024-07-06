@@ -17,9 +17,7 @@
             }
         }
 
-        @include media-breakpoint-up(lg){
-            margin-top:10rem;
-        }
+        
 
         .icon{
             font-size: 1.5rem;
@@ -34,15 +32,6 @@
     &__pic{
         max-width: 100%;
 
-        @include media-breakpoint-down(sm){
-           display: none;
-        }
-
     }
-
-    
-    @include media-breakpoint-down(sm){
-        display: none;
-     }
 
 }

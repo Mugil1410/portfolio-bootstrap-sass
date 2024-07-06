@@ -12047,11 +12047,6 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
-@media (min-width: 992px) {
-  .services__content {
-    margin-top: 10rem;
-  }
-}
 .services__content .icon {
   font-size: 1.5rem;
   color: #9926f0;
@@ -12063,16 +12058,6 @@ textarea.form-control-lg {
 }
 .services__pic {
   max-width: 100%;
-}
-@media (max-width: 575.98px) {
-  .services__pic {
-    display: none;
-  }
-}
-@media (max-width: 575.98px) {
-  .services {
-    display: none;
-  }
 }
 
 .testimonials {
