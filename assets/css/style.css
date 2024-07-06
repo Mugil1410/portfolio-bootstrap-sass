@@ -12064,6 +12064,16 @@ textarea.form-control-lg {
 .services__pic {
   max-width: 100%;
 }
+@media (max-width: 575.98px) {
+  .services__pic {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .services {
+    display: none;
+  }
+}
 
 .testimonials {
   position: relative;

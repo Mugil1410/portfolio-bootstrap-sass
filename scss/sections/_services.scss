@@ -34,6 +34,15 @@
     &__pic{
         max-width: 100%;
 
+        @include media-breakpoint-down(sm){
+           display: none;
+        }
+
     }
+
+    
+    @include media-breakpoint-down(sm){
+        display: none;
+     }
 
 }
