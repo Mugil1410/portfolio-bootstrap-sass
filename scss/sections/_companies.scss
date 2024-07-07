@@ -1,22 +1,28 @@
 .companies{
     padding: 0 0 5rem 0;
 
-    &_logo-box{
-        max-width: 100%;
-        height: 6rem;
-        margin-bottom: 2rem;
-        padding: 0.5rem;
-        text-align: center;
-        position: relative;
+    .infinite_logo_carousel{
+        overflow: hidden;
+        width: 100%;
 
-        img{
-            height: 100%;
+        div{
+            display: flex;
+            width: fit-content;
+            animation: infinite_logo_carousel 30s linear infinite;
 
-            &:hover{
-                opacity: 0.5;
+            img{
+                width: 100%;
+                height: 100px;
+                background-color: #3498db;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 10px;
+                font-size: 24px;
+                border-radius: 10px;
             }
-
         }
-
+        
     }
 }

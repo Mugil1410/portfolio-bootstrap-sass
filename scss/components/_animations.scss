@@ -10,3 +10,13 @@
         opacity: 0;
     }
 }
+
+
+@keyframes infinite_logo_carousel {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
