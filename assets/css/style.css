@@ -12185,12 +12185,18 @@ textarea.form-control-lg {
     padding: 3rem;
   }
 }
+@media (max-width: 575.98px) {
+  .cta-info p {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+}
 .cta-info__list {
   position: relative;
   list-style-type: none;
   display: block;
   padding-top: 0.5rem;
-  padding-left: 0.5rem;
+  padding-left: 0rem;
   margin-bottom: 0.7rem;
 }
 .cta-info__list li::before {
@@ -12199,6 +12205,12 @@ textarea.form-control-lg {
   font-weight: 600;
   margin-right: 0.5rem;
   font-size: 1.2rem;
+}
+@media (max-width: 575.98px) {
+  .cta-info__list {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
 }
 
 .form {
